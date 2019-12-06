@@ -11,7 +11,7 @@ from imutils import perspective
 from imutils import contours
 
 # using cam built-in to computer
-videocapture=cv2.VideoCapture(2)
+videocapture=cv2.VideoCapture(1)
 
 # using IP camera address from my mobile phone, with Android 'IP Webcam' app over WiFi
 # videocapture=cv2.VideoCapture("http://xxx.xxx.xxx.xxx:8080/video")
